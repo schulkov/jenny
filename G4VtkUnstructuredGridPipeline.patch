@@ -1,0 +1,10 @@
+--- G4VtkUnstructuredGridPipeline.hh	2024-06-21 14:44:24.000000000 +0100
++++ G4VtkUnstructuredGridPipeline.hh	2024-06-21 14:44:24.000000000 +0100
+@@ -37,6 +37,7 @@
+ #include <vtkCharArray.h>
+ #include <vtkDoubleArray.h>
+ #include <vtkUnstructuredGrid.h>
++#include <vtkUnstructuredGridAlgorithm.h>
+ #if VTK_MINOR_VERSION >= 2
+ #include <vtkStaticCleanUnstructuredGrid.h>
+ #endif
